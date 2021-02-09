@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.navigation {
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.class-for-about {
+    color: white;
+}
+
+.class-for-courses {
+    color: white;
+}
