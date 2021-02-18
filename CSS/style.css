@@ -5,12 +5,30 @@ body {
 .navigation {
     color: darkcyan;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
 }
 
 .class-for-about {
     color: white;
+    margin-top: 30px;
 }
 
 .class-for-courses {
     color: white;
+    margin-top: 30px;
+
+}
+
+.topnav {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.image {
+    float: left;
+    padding: 0px 20px 0px 0px;
+    max-width: 35%;
+    height: auto
 }
