@@ -1,16 +1,56 @@
-body {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0px 25px;
+    border-bottom: 5px solid #002642;
+}
+
+nav ul {
+    list-style: none;
 }
 
 .navigation {
-    color: darkcyan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 5px;
+    padding-right: 1rem;
+    display: inline-block;
 }
 
-.class-for-about {
-    color: white;
+a {
+    font-family: 'Xanh Mono', monospace;
+    text-decoration: underline;
+    color:#002642;
 }
 
-.class-for-courses {
-    color: white;
+a:hover {
+    text-decoration: underline 2px;
 }
+
+body {
+    background-color: #e5dada;
+}
+
+section {
+    margin: 50px 25px;
+    list-style: circle;
+}
+
+h1 {
+    margin: 25px 25px;
+    font-family: 'Xanh Mono', monospace;
+    color: #001642;
+}
+
+ul {
+    font-family: 'Xanh Mono', monospace;
+    list-style: circle;
+}
+
+.image {
+    float: left;
+    padding: 0px 10px 0px 0px;
+    max-width: 35%;
+    max-height: 25%
+}   
